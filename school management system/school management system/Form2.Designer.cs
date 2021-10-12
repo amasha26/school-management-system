@@ -1,7 +1,7 @@
 ﻿
 namespace school_management_system
 {
-    partial class Form1
+    partial class Form2
     {
         /// <summary>
         /// Required designer variable.
@@ -37,31 +37,31 @@ namespace school_management_system
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(160, 104);
+            this.label1.Location = new System.Drawing.Point(198, 98);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(411, 42);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "Time Table for teachers";
+            this.label1.Size = new System.Drawing.Size(175, 42);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "Teachers";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(189, 216);
+            this.label2.Location = new System.Drawing.Point(443, 98);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(409, 42);
-            this.label2.TabIndex = 2;
-            this.label2.Text = "Time Table for students";
+            this.label2.Size = new System.Drawing.Size(166, 42);
+            this.label2.TabIndex = 1;
+            this.label2.Text = "Students";
             // 
-            // Form1
+            // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.Name = "Form2";
+            this.Text = "Form2";
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -73,4 +73,3 @@ namespace school_management_system
         private System.Windows.Forms.Label label2;
     }
 }
-
